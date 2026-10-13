@@ -1,0 +1,20 @@
+:root{--bg:#10261f;--panel:#17352b;--text:#f2ede2;--muted:#b9c4bb;--accent:#e8783a;--link:#f2b27f;--max:44rem}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:1.0625rem/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+a{color:var(--link)}
+header.site,main,footer.site{max-width:var(--max);margin:0 auto;padding:0 1rem}
+header.site{padding-top:1rem;padding-bottom:.5rem;display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;align-items:baseline;justify-content:space-between}
+header.site .brand{font-weight:700;font-size:1.15rem;color:var(--text);text-decoration:none}
+header.site nav a{margin-right:1rem;text-decoration:none}
+h1{font-size:1.9rem;line-height:1.25;margin:1.5rem 0 .75rem}
+h2{font-size:1.35rem;line-height:1.3;margin:2.25rem 0 .5rem;color:var(--text)}
+p{margin:.75rem 0}
+.lead{font-size:1.2rem;color:var(--muted)}
+.btn{display:inline-block;background:var(--accent);color:#1a0f08;font-weight:700;text-decoration:none;padding:.8rem 1.4rem;border-radius:.7rem;margin:.5rem 0 1rem}
+.shots{display:flex;gap:.9rem;overflow-x:auto;padding:.5rem 0 1rem;margin:0 -1rem;padding-left:1rem;padding-right:1rem;scroll-snap-type:x mandatory}
+.shots figure{margin:0;flex:0 0 min(70vw,16rem);scroll-snap-align:start}
+.shots img{display:block;width:100%;height:auto;border-radius:.9rem;background:var(--panel)}
+.note{background:var(--panel);border-radius:.8rem;padding:.9rem 1.1rem;margin:1.25rem 0}
+footer.site{border-top:1px solid #2c4a3e;margin-top:3rem;padding-top:1rem;padding-bottom:2rem;color:var(--muted);font-size:.95rem}
+footer.site a{margin-right:1rem}
